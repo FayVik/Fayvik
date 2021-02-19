@@ -7,17 +7,18 @@ nav{
 }
 .logo{
   width: 20%;
+  padding-top: 10px;
   padding-left: 40px;
 }
 .logo img{
-  width: 30%;
+  width: 100px;
 }
 .link{
   width: 80%;
 }
 ul{
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 li{
@@ -28,5 +29,15 @@ a{
   text-decoration: none;
   font-weight: 600;
   color: rgb(65, 65, 65);
-  font-size: 20px;
+  font-size: 18px;
+}
+
+.mobileView{
+  display: block;
+}
+.mobileLink ul{
+  display: block;
+}
+.mobileLink ul li{
+  padding-top: 20px;
 }
